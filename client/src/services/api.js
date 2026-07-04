@@ -1,9 +1,10 @@
-// Use HTTPS for production
-const API_URL = import.meta.env.VITE_API_URL || 'https://portfolio-backend-env.eba-g2k22xak.ap-southeast-2.elasticbeanstalk.com/api';
+// Force the URL directly without environment variable (for testing)
+const API_URL = 'https://portfolio-backend-env.eba-g2k22xak.ap-southeast-2.elasticbeanstalk.com/api';
 
 export const api = {
   // Projects
   getProjects: async () => {
+    console.log('Fetching from:', API_URL); // Add this to debug
     const response = await fetch(`${API_URL}/projects`);
     if (!response.ok) throw new Error('Failed to fetch projects');
     return response.json();

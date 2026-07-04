@@ -115,7 +115,7 @@ const Contact = () => {
               <span className="contact-icon"></span>
               <div>
                 <strong>Email</strong>
-                <a href="mailto:rarasaradri@example.com">rarasaradri@example.com</a>
+                <a href="mailto:darahout2406@example.com">darahout2406@example.com</a>
               </div>
             </div>
             
@@ -123,7 +123,7 @@ const Contact = () => {
               <span className="contact-icon"></span>
               <div>
                 <strong>Phone</strong>
-                <span>+855 6777777776777X</span>
+                <span>+855 12 345 678</span>
               </div>
             </div>
             
@@ -131,7 +131,7 @@ const Contact = () => {
               <span className="contact-icon"></span>
               <div>
                 <strong>GitHub</strong>
-                <a href="https://github.com/rayleigh" target="_blank" rel="noopener noreferrer">github.com/rayleigh</a>
+                <a href="https://github.com/khdara0006" target="_blank" rel="noopener noreferrer">github.com/khdara0006</a>
               </div>
             </div>
           </div>
