@@ -1068,3 +1068,25 @@ body {
   color: #6a0dad;
   text-decoration: underline;
 }
+/* No Projects Message */
+.no-projects {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: white;
+  border-radius: 16px;
+  border: 2px dashed #e0dce8;
+  color: #4a4563;
+}
+
+.no-projects p {
+  font-size: 1.1rem;
+  color: #6b6375;
+  margin: 0;
+}
+
+.no-projects::before {
+  content: '📁';
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
