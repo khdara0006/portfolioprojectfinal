@@ -1,5 +1,5 @@
-// Update this URL to your deployed backend
-const API_URL = 'http://portfolio-backend-env.eba-g2k22xak.ap-southeast-2.elasticbeanstalk.com/api';
+// Use HTTPS for production
+const API_URL = import.meta.env.VITE_API_URL || 'https://portfolio-backend-env.eba-g2k22xak.ap-southeast-2.elasticbeanstalk.com/api';
 
 export const api = {
   // Projects
