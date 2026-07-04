@@ -1,0 +1,49 @@
+.education {
+  padding: 80px 10%;
+  background: #f9fbfd;
+}
+
+.education h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #0077cc;
+}
+
+.edu-container {
+  max-width: 800px;
+  margin: auto;
+  border-left: 3px solid #0077cc;
+  padding-left: 20px;
+}
+
+.edu-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.edu-item::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background: #0077cc;
+  border-radius: 50%;
+}
+
+.edu-item h3 {
+  color: #0077cc;
+  margin-bottom: 5px;
+}
+
+.edu-item h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.edu-item p {
+  color: #333;
+  line-height: 1.6;
+}

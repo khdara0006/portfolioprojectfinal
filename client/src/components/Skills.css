@@ -1,0 +1,49 @@
+.skills {
+  padding: 80px 10%;
+  background: #ffffff;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #0077cc;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.skill-card h3 {
+  margin-bottom: 10px;
+}
+
+/* progress bar */
+.bar {
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* skill levels */
+.html { width: 50%; background: #e44d26; }
+.css { width: 55%; background: #264de4; }
+.js { width: 55%; background: #f0db4f; }
+.react { width: 35%; background: #61dbfb; }
+.node { width: 30%; background: #3c873a; }
+.mongo { width: 30%; background: #4db33d; }

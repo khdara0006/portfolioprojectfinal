@@ -1,0 +1,11 @@
+:root {
+  --text: #4a4563;
+  --text-h: #2d2a3e;
+  --bg: #f8f7fa;
+  --border: #f0edf5;
+  --accent: #6a0dad;
+}
+
+html {
+  scroll-behavior: smooth;
+}
